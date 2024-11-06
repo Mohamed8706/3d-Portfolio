@@ -17,7 +17,7 @@ const Hero = () => {
 
         {/*  Content  */} 
         <div className="">
-          <h1 className={`${styles.heroHeadText} w-[53%] xs:w-[70%] sm:w-[100%] typing text-white`}>Hi, I&apos;m <span className="text-[#915eff]">
+          <h1 className={`${styles.heroHeadText} w-[63%] xs:w-[70%] sm:w-[100%] typing text-white`}>Hi, I&apos;m <span className="text-[#915eff]">
               Mohamed</span></h1>
             <p className={`${styles.heroSubText} slowtyping w-fit  mt-2 text-white-100`}>I develop web applications using React, with </p>
           <span className={`${styles.heroSubText}  slowtyping2`}>some experience in MongoDB and Node.js.</span>
