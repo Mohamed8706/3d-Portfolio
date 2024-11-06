@@ -28,7 +28,7 @@ const Computers = ({ isMobile }) => {
 />
 <primitive
   object={computer.scene}
-  scale={isMobile ? 0.47 : 0.69}
+  scale={isMobile ? 0.40 : 0.69}
   position={isMobile ? [0, -3.2, -0.8] : [0, -3, -1.5]}
   rotation={[-0.01, -0.2, -0.1]}
   castShadow
