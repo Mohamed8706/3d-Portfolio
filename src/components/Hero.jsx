@@ -1,6 +1,6 @@
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas/index";
-
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
@@ -23,9 +23,28 @@ const Hero = () => {
           <span className={`${styles.heroSubText}  slowtyping2`}>some experience in MongoDB and Node.js.</span>
         </div>
       </div>
-      
-   <ComputersCanvas />
-    
+
+      {/* 3D  Model */}
+      <ComputersCanvas />
+
+    {/* Scroll down button */}
+    <div className="absolute bottom-60 sm:bottom-5 flex items-center justify-center w-full">
+      <a href="#about">
+        <div className="w-[35px] h-[64px] flex items-start justify-center 
+        rounded-3xl border-secondary border-4">
+          <motion.dev animate={{
+            y: [0, 22, 0]
+          }}
+          transition={{
+            duration: 1.5,
+            repeat: Infinity,
+            repeatType: 'loop'
+          }}
+          className="w-3 h-3 rounded-full bg-secondary my-2"
+          />
+        </div>
+      </a>
+    </div>
 
     </section>
   )
