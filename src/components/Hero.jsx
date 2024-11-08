@@ -28,7 +28,7 @@ const Hero = () => {
       <ComputersCanvas />
 
     {/* Scroll down button */}
-    <div className="absolute bottom-60 sm:bottom-5 flex items-center justify-center w-full">
+    <div className="absolute bottom-40 xsm:bottom-52 sm:bottom-5 flex items-center justify-center w-full">
       <a href="#about">
         <div className="w-[35px] h-[64px] flex items-start justify-center 
         rounded-3xl border-secondary border-4">
