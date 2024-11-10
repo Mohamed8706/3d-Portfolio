@@ -55,7 +55,7 @@ const About = () => {
     <div className='flex flex-wrap justify-center gap-10 mt-20'>
       {services.map((service, index) => {
         return(
-          <ServiceCard title={service.title} index={index} {...service} />
+          <ServiceCard title={service.title} index={index} key={index} {...service} />
         )
       })}
     </div>
