@@ -80,10 +80,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "git",
-    icon: git,
-  },
 ];
 
 const experiences = [
