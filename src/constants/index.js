@@ -65,6 +65,10 @@ const technologies = [
     icon: redux,
   },
   {
+  name: "Html",
+  icon: "html"
+  }
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
