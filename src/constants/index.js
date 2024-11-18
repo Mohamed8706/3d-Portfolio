@@ -53,6 +53,10 @@ const services = [
 
 const technologies = [
   {
+    name:"HTML 5",
+    icon: html,
+  },
+  {
     name:"CSS 3",
     icon: css,
   },
