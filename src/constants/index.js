@@ -57,10 +57,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Html",
-    icon: "html"
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
