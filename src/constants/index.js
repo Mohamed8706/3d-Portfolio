@@ -52,6 +52,11 @@ const services = [
 ];
 
 const technologies = [
+
+  {
+    name:"JavaScript",
+    icon: javascript,
+  },
   {
     name: "React JS",
     icon: reactjs,
