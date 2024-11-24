@@ -25,26 +25,8 @@ const Hero = () => {
       </div>
 
       {/* 3D  Model */}
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-    {/* Scroll down button */}
-    <div className="absolute bottom-40 xsm:bottom-52 sm:bottom-5 flex items-center justify-center w-full">
-      <a href="#about">
-        <div className="w-[35px] h-[64px] flex items-start justify-center 
-        rounded-3xl border-secondary border-4">
-          <motion.div animate={{
-            y: [0, 22, 0]
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-            repeatType: 'loop'
-          }}
-          className="w-3 h-3 rounded-full bg-secondary my-2"
-          />
-        </div>
-      </a>
-    </div>
 
     </section>
   )
