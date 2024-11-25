@@ -109,7 +109,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: ecommerce,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/E-Commerce",
   },
   {
@@ -130,7 +130,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: registration,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/react",
   },
   {
@@ -151,7 +151,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/MyPortfolio/tree/master",
     live_preview_link: "https://mohamedkportfolio.netlify.app/"
   },
@@ -173,7 +173,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: leontemplate,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/MyPortfolio/tree/master/Project-elzero1",
     live_preview_link: "https://mohamedkportfolio.netlify.app/project-elzero1/"
   },
@@ -195,7 +195,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: toDoList,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/MyPortfolio/tree/master/To-do-list",
     live_preview_link: "https://mohamedkportfolio.netlify.app/to-do-list/challange"
   },
@@ -213,7 +213,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: quiz,
+    image: ic,
     source_code_link: "https://github.com/Mohamed8706/MyPortfolio/tree/master/web6",
     live_preview_link: "https://mohamedkportfolio.netlify.app/web6/web6"
   },
