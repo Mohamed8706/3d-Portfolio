@@ -18,7 +18,7 @@ import tailwind from "./tech/tailwind.png";
 
 import ic from "./company/ideas-and-concepts.jpg";
 
-import ecommerce from "./ecommerce.jpg";
+import ecommerce from "./ecommerce.JPG";
 import registration from "./registration.JPG";
 import portfolio from "./portfolio.JPG";
 import leontemplate from "./elzero challange.JPG"
