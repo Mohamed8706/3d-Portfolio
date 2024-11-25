@@ -18,7 +18,12 @@ import tailwind from "./tech/tailwind.png";
 
 import ic from "./company/ideas-and-concepts.jpg";
 
-
+import ecommerce from "./ecommerce.jpg";
+import registration from "./registration.JPG";
+import portfolio from "./portfolio.JPG";
+import leontemplate from "./elzero challange.JPG"
+import toDoList from "./to-do-list.JPG"
+import quiz from "./quiz.JPG"
 
 
 
@@ -38,6 +43,12 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  ic
+  ic,
+  ecommerce,
+  registration,
+  portfolio,
+  leontemplate,
+  toDoList,
+  quiz
 
 };
