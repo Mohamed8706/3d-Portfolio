@@ -36,7 +36,7 @@ import { fadeIn, textVariant } from '../utils/motion';
         </div>
           {/* Live preview Icon */}
           {live_preview_link &&
-            <div className='absolute inset-0 w-full flex justify-start  m-3 card-img_cover'>
+            <div className='absolute inset-0 w-1/2 flex justify-start  m-3 card-img_cover'>
           <div onClick={() => {
             window.open(live_preview_link, "_blank")
           }}
