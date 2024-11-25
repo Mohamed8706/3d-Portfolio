@@ -8,12 +8,7 @@ import {
   tailwind,
   nodejs,
   ic,
-  ecommerce,
-  registration,
-  portfolio,
-  leontemplate,
-  toDoList,
-  quiz
+
 } from "../assets";
 
 export const navLinks = [
