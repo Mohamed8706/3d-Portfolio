@@ -3,18 +3,18 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
-import { github } from '../assets';
+import { github, live_preview } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
- const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+ const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_preview_link }) => {
   return(
       <motion.div
         variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
         
       >
       <Tilt 
-          className="xs:w-[360px] w-full bg-tertiary p-5 rounded-2xl" 
+          className="xs:w-[360px] min-h-[450px] w-full bg-tertiary p-5 rounded-2xl" 
           tiltMaxAngleX={-25} 
           tiltMaxAngleY={-25} 
           scale={1.05} 
@@ -34,6 +34,19 @@ import { fadeIn, textVariant } from '../utils/motion';
             <img src={github} alt="github" className='w-1/2 h-1/2 object-contain' />
           </div>
         </div>
+          {/* Live preview Icon */}
+          {live_preview_link &&
+            <div className='absolute inset-0 w-full flex justify-start  m-3 card-img_cover'>
+          <div onClick={() => {
+            window.open(live_preview_link, "_blank")
+          }}
+          className='w-[60px] h-[60px] rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img src={live_preview} alt="Live Preview" className='w-1/2 h-1/2 object-contain' />
+          </div>
+        </div>
+        }
+ 
 
         </div>
           {/* Content */}
