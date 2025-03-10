@@ -7,8 +7,9 @@ import {
   reactjs,
   tailwind,
   nodejs,
+  Redux,
   ic,
-  ecommerce,
+  shopNow,
   registration,
   portfolio,
   leontemplate,
@@ -41,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FrontEnd Developer",
     icon: web,
   },
   {
@@ -75,15 +76,19 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
+  {
+    name: "Redux Toolkit",
+    icon: Redux,
+  },
 ];
 
 const experiences = [
   {
     title: "React Js Developer (Intern)",
-    company_name: "Ideas and Concepts",
+    company_name: "Ideas and Concepts Group",
     icon: ic,
     iconBg: "#E6DEDD",
-    date: "September 2024 - Present",
+    date: "September 2024 - December 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -96,29 +101,48 @@ const experiences = [
 
 const projects = [
   {
-    name: "E-Commerce",
+    name: "Shop-Now",
     description:
-      "Web-based platform that allows users to search, buy, and manage products. with a dashboard that allows admins and writers to manage and add users and categories.",
+      "Web-based platform that allows users to search, buy, and manage products. with a dashboard that allows admins to manage and add users and categories.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "bootstrap",
+        name: "vite",
         color: "orange-text-gradient",
       },
       {
-        name: "in-progress",
+        name: "tailwind",
         color: "green-text-gradient",
       },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "violet-gradient",
+      },
+      {
+        name: "RestApi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Query",
+        color: "green-pink-gradient",
+      },{
+        name: "Framer Motion",
+        color: "blue-text-gradient",
+      },{
+        name: "Google Authentication",
+        color: "green-text-gradient",
+      }
     ],
-    image: ecommerce,
-    source_code_link: "https://github.com/Mohamed8706/E-Commerce",
+    image: shopNow,
+    source_code_link: "https://github.com/Mohamed8706/shop-now",
+    live_preview_link: "https://shop-now-pearl.vercel.app/",
   },
   {
     name: "Registration",

@@ -14,11 +14,12 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import Redux from "./tech/redux.png"
 
 
 import ic from "./company/ideas-and-concepts.jpg";
 
-import ecommerce from "./ecommerce.JPG";
+import shopNow from "./shop-now.png";
 import registration from "./registration.JPG";
 import portfolio from "./portfolio.JPG";
 import leontemplate from "./elzero challange.JPG"
@@ -43,8 +44,9 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  Redux,
   ic,
-  ecommerce,
+  shopNow,
   registration,
   portfolio,
   leontemplate,
