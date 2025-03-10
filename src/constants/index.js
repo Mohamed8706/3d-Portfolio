@@ -8,6 +8,7 @@ import {
   tailwind,
   nodejs,
   Redux,
+  reactQuery,
   ic,
   shopNow,
   registration,
@@ -80,6 +81,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: Redux,
   },
+  {
+    name: "React Query",
+    icon: reactQuery
+  }
 ];
 
 const experiences = [
@@ -123,21 +128,11 @@ const projects = [
       },
       {
         name: "Redux Toolkit",
-        color: "violet-gradient",
-      },
-      {
-        name: "RestApi",
-        color: "green-text-gradient",
+        color: "blue-gradient",
       },
       {
         name: "React Query",
-        color: "green-pink-gradient",
-      },{
-        name: "Framer Motion",
-        color: "blue-text-gradient",
-      },{
-        name: "Google Authentication",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       }
     ],
     image: shopNow,

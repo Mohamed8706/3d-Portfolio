@@ -15,6 +15,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import Redux from "./tech/redux.png"
+import reactQuery from "./tech/react query.png"
 
 
 import ic from "./company/ideas-and-concepts.jpg";
@@ -45,6 +46,7 @@ export {
   reactjs,
   tailwind,
   Redux,
+  reactQuery,
   ic,
   shopNow,
   registration,
