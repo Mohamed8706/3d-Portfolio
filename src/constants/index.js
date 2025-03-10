@@ -128,7 +128,7 @@ const projects = [
       },
       {
         name: "Redux Toolkit",
-        color: "blue-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "React Query",

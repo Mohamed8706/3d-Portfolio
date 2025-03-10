@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from '../utils/motion';
   return(
       <motion.div>
       <Tilt 
-          className="xs:w-[360px] h-[450px] w-full bg-tertiary p-5 rounded-2xl" 
+          className="xs:w-[360px] min-h-[470px] w-full bg-tertiary p-5 rounded-2xl" 
           tiltMaxAngleX={-25} 
           tiltMaxAngleY={-25} 
           scale={1.05} 
