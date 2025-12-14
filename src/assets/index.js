@@ -19,6 +19,7 @@ import reactQuery from "./tech/react query.png"
 
 
 import ic from "./company/ideas-and-concepts.jpg";
+import ignteq from "./company/ignteq.webp"
 
 import shopNow from "./shop-now.png";
 import registration from "./registration.JPG";
@@ -48,6 +49,7 @@ export {
   Redux,
   reactQuery,
   ic,
+  ignteq,
   shopNow,
   registration,
   portfolio,
