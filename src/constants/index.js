@@ -100,6 +100,21 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    {
+    title: "FrontEnd Developer",
+    company_name: "Ignteq",
+    icon: ic,
+    iconBg: "#E6DEDD",
+    date: "May 2025 - November 2025",
+    points: [
+      "Developing and maintaining large-scale web applications using React.js, Next.js, and Angular, with a focus on performance, scalability, and clean architecture.",
+      "Collaborating with cross-functional teams including designers, product managers, QA engineers, and backend developers to deliver stable, production-ready features.",
+      "Improving application performance by debugging infinite rendering issues, optimizing filters, and refactoring existing code during major system upgrades.",
+      "Implementing responsive UI components and ensuring cross-browser compatibility across complex dashboards and user-facing modules.",
+      "Contributing to testing and debugging phases, resolving UI bugs, and ensuring feature stability before release.",
+      "Participating in code reviews, maintaining coding standards, and providing constructive feedback to improve code quality and team consistency."
+    ],
+  },
   },
 ];
 
