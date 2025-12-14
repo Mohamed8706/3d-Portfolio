@@ -11,7 +11,7 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
+import angular from "./tech/angular.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import Redux from "./tech/redux.png"
