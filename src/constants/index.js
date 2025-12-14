@@ -93,7 +93,7 @@ const experiences = [
     title: "React Js Developer (Intern)",
     company_name: "Ideas and Concepts Group",
     icon: ic,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffff",
     date: "September 2024 - December 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
