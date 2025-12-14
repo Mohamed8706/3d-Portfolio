@@ -107,7 +107,7 @@ const experiences = [
     title: "FrontEnd Developer",
     company_name: "Ignteq",
     icon: ignteq,
-    iconBg: "#000000",
+    iconBg: "#ffff",
     date: "May 2025 - November 2025",
     points: [
       "Developing and maintaining large-scale web applications using React.js, Next.js, and Angular, with a focus on performance, scalability, and clean architecture.",
