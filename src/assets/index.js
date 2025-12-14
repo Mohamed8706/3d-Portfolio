@@ -42,7 +42,7 @@ export {
   css,
   html,
   javascript,
-  nodejs,
+  angular,
   reactjs,
   tailwind,
   Redux,
