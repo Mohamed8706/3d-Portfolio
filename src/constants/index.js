@@ -6,7 +6,7 @@ import {
   css,
   reactjs,
   tailwind,
-  nodejs,
+  angular,
   Redux,
   reactQuery,
   ic,
@@ -74,8 +74,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Redux Toolkit",
