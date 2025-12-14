@@ -100,7 +100,9 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-    {
+  },
+
+  {
     title: "FrontEnd Developer",
     company_name: "Ignteq",
     icon: ic,
@@ -114,7 +116,6 @@ const experiences = [
       "Contributing to testing and debugging phases, resolving UI bugs, and ensuring feature stability before release.",
       "Participating in code reviews, maintaining coding standards, and providing constructive feedback to improve code quality and team consistency."
     ],
-  },
   },
 ];
 
